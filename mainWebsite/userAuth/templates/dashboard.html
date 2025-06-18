@@ -4,6 +4,10 @@
 
 <h1>Dashboard : {{ request.user.username }}</h1>
 <a href="{% url 'logout' %}" class="btn btn-dark">Logout</a>
+<br>
+<br>
+<br>
+<a href="{% url 'code_editor' %}" class="btn btn-dark">COMPILER</a>
 
 
 {% endblock %}
